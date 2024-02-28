@@ -22,11 +22,11 @@ class GuiDuasColunas(QWidget):
 
         labelColEsq = QLabel()
         labelColEsq.setStyleSheet("QLabel{background-color:#0E4B20}")
-        labelColEsq.setFixedWidth(800)
+        labelColEsq.setFixedWidth(795)
 
         labelColDir = QLabel()
         labelColDir.setStyleSheet("QLabel{background-color:#683127}")
-        labelColDir.setFixedWidth(800)
+        labelColDir.setFixedWidth(795)
 
         labelLogo = QLabel()
         labelLogo.setPixmap(QPixmap("logo_padaria.jpg"))
